@@ -1,0 +1,13 @@
+_GCP_REGION	uscentral1
+_CUSTOM_SERVICE_ACCOUNT	[YOUR CUSTOM_SERVICE_ACCOUNT]
+_ENDPOINT	[Your inverting proxy host pipeline ENDPOINT]
+_TFX_IMAGE_NAME	lab-03-tfx-image
+_PIPELINE_NAME	tfx_covertype_continuous_training
+_MODEL_NAME	tfx_covertype_classifier
+_DATA_ROOT_URI	gs://workshop-datasets/covertype/small
+_PIPELINE_FOLDER	workshops/tfx-caip-tf23/lab-03-tfx-cicd/labs/pipeline
+_PIPELINE_DSL	runner.py
+_PYTHON_VERSION	3.7
+_RUNTIME_VERSION	2.3
+_USE_KFP_SA	False
+_ENABLE_TUNING	True
